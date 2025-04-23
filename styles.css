@@ -1,0 +1,67 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  direction: rtl;
+}
+
+.header-carousel .carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+
+.course-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 15px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ff8c00, #28a745);
+  color: white;
+}
+
+.course-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.course-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.btn-more {
+  background-color: #007bff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+}
+
+.btn-more:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background: linear-gradient(135deg, #343a40, #007bff);
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.footer a {
+  color: #28a745;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.footer a:hover {
+  color: #ff8c00;
+}
+
+.admin-panel {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
